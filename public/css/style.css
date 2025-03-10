@@ -412,11 +412,11 @@ figure {
   }
 }
 
-#fh5co-counter,
+/* #fh5co-counter,
 #fh5co-event {
   height: 850px;
   float: left;
-}
+} */
 
 #fh5co-counter .display-t,
 #fh5co-counter .display-tc,
@@ -995,7 +995,8 @@ form label {
   line-height: 1.5;
   margin-top: 20px;
   font-family: Engagement;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding shadow effect */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* Adding shadow effect */
 }
 
 @media screen and (max-width: 480px) {
